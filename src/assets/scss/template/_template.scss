@@ -1,0 +1,107 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+    background: #000;
+    -webkit-hyphens: none !important;
+    -moz-hyphens: none !important;
+    -ms-hyphens: none !important;
+    hyphens: none !important;
+}
+
+.container.header {
+  background: #f3f3f3;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: #8a8a8a;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+.top_hero_area {
+    
+    background: #0877d5;
+    background-image: url('http://offers.premierinc.com/rs/381-NBB-525/images/thankyou_bgimage.jpg') !important;
+    
+    h1, h2, p {
+        color: #ffffff;
+    }
+    h1 {
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    p {
+        font-size: 28px;
+        margin-bottom: 20px;
+        line-height: 38px !important;
+    }
+}
+
+.white_divider {
+    background-color: #ffffff;
+}
+
+.dark_body {
+    background: #333 !important;
+    img {
+        display: inline-block;
+    }
+    p {
+        color: #ffffff;
+    }
+}
+
+.footer {
+    vertical-align: middle;
+    text-align: right;
+    p {
+        text-align: right;
+        color: #999999;
+    }
+}
